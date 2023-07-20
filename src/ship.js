@@ -1,10 +1,15 @@
 
-function Ship(name) {
+function Ship(name, currentPort) {
  this.name = name; 
- this.startingPort = 'Vermillion City';
+ this.currentPort = currentPort;
 };
 
 Ship.prototype.setSail = function() {
-    this.startingPort = false;
+    this.currentPort = false;
+};
+
+Ship.prototype.dock = function(port) {
+    this.currentPort = port;
 }
 module.exports = Ship;
+
