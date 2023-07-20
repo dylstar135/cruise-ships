@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "jest": "^29.6.1"
-  }
+  },
+  "name": "cruise-ships",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
