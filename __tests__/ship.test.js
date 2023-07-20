@@ -10,4 +10,9 @@ describe("Ship", () => {
 
     expect(ship.startingPort).toBe("Vermillion City");
   });
+  it("can set sail", () => {
+    const ship = new Ship("S.S ANNE");
+    ship.setSail();
+    expect(ship.startingPort).toBeFalsy();
+  });
 });
